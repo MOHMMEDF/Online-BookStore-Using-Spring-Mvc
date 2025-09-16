@@ -1,0 +1,73 @@
+
+
+@charset "UTF-8";
+
+.banner-title {
+    color: orange;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.custom-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 18px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+}
+
+.custom-btn:hover {
+    background-color: #0059b3;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	color: #003366;
+}
+
+form {
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #fff;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="password"],input[type="number"],
+	textarea {
+	padding: 5px;
+	margin: 10px 0;
+	width: 80%;
+}
+
+input[type="submit"] {
+	padding: 8px 16px;
+	background-color: #003366;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #0059b3;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
